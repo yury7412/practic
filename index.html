@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Авторизация</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src=""></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="login_form_cont_wrapper">
@@ -19,13 +19,13 @@
                         <div class="input_cont">
                             <label>Электронная почта:</label>
                             <input id="email-input" type="email" placeholder="example@mail.ru">
-                            <div id="email-error" class="error-message"></div>
+                            <div id="email-error" data-aos="fade-right" class="error-message"></div>
                         </div>
                     
                         <div class="input_cont">
                             <label>Пароль:</label>
                             <input id="password-input" type="password" placeholder="Введите пароль">
-                            <div id="password-error" class="error-message"></div>
+                            <div id="password-error" class="error-message" data-aos="fade-right"></div>
                         </div>
                     
                         <div class="form_buttom">
@@ -60,5 +60,9 @@
     </div>
 
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
