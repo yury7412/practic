@@ -17,6 +17,7 @@ a{
 
 body{
    background-color: var(--background);
+   font-family: 'Montserrat', sans-serif;
 }
 
 .login_form_cont_wrapper{
