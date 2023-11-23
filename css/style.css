@@ -28,7 +28,7 @@ body{
 .container_wrapper{
     display: flex;
     gap: 1.88rem;
-    align-items: center;
+    align-items: end;
 }
 
 .title{
@@ -59,7 +59,7 @@ form{
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 1.3125rem */
+    line-height: 150%;
 }
 
 .input_cont label{
